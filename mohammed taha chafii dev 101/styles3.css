@@ -1,0 +1,45 @@
+.produit1 {
+    color: beige;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+h1 {
+    margin-bottom: 0;
+}
+
+.produit {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+    transform: translate(-110%,30%);
+    color: beige;
+}
+.description{
+    transform: translate(105%,-600%);
+}
+.prix{
+    transform: translate(-1%,-150%);
+}
+.produit img {
+    max-width: 100%;
+    height: auto;
+    transform: translate(-100,40);
+}
+
+button {
+    background-color: #ac8e14;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transform: translate(160%,-370%);
+}
+
+button:hover {
+    background-color: #e6b100;
+}
